@@ -53,8 +53,7 @@ function iniciarJogo(){
 
     for(i = 1; i < snake.length; i++) {
         if(snake[0].x == snake[i].x && snake[0].y == snake[i].y) {  
-            score = 0;
-            scoreText.innerText = "Score: " + score;
+            scoreText.innerText = score;
             clearInterval();
             location.reload();
             
@@ -80,7 +79,7 @@ function iniciarJogo(){
     }else {
         //pegou a comida
         score++;
-        scoreText.innerText = "Score: " + score;
+        scoreText.innerText = score;
         console.log(score);
         food.x = Math.floor(Math.random() * 15 + 1) * box;
         food.y = Math.floor(Math.random() * 15 + 1) * box;
