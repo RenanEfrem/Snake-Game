@@ -18,16 +18,17 @@ body {
 }
 .title {
     font-weight: bolder;
+    margin-bottom: -20px;
     font-size: 36px;
     color: #DF2E2E;
 }
 #snake {
     border: 3px solid #b82525;
+    margin-bottom: 30px;
 }
 .score {
-    margin-top: -10px;
     font-weight: bold;
-    padding: 0px 0px;
+    margin-bottom: -2px;
     font-size: 22px;
 }
 a {
